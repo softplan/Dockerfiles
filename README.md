@@ -11,6 +11,7 @@ This repository contains all base **Dockerfiles** for [Docker](https://www.docke
 * [jboss-as][jboss-as-readme]: Base image with old versions of [JBoss Application Server][jboss-as], providing versions for families *4.X* and *5.X*.
 * [mule-esb][mule-esb-readme]: Docker Image packaging for [MuleESB][mulesoft]  with [Oracle JDK][oracle-jdk] 7.
 * [grunt][grunt-readme]: Debian Jessie based image with [NodeJS], [Grunt] and [Bower] installed.
+* [openshift-cli][openshift-cli-readme]: Ubuntu:16.04 based image with Openshift cli installed.
 
 
 # Development
@@ -36,6 +37,7 @@ See **docker-template-wrapper** [README][docker-template-wrapper-readme] to know
 [jboss-as-readme]: jboss-as/README.md
 [mule-esb-readme]: mule-esb/README.md
 [grunt-readme]: grunt/README.md
+[openshift-cli-readme]: openshift-cli/README.md
 
 [docker-hub]: https://hub.docker.com/
 
@@ -49,6 +51,7 @@ See **docker-template-wrapper** [README][docker-template-wrapper-readme] to know
 [nodejs]: https://nodejs.org/
 [grunt]: http://gruntjs.com/
 [bower]: http://bower.io/
+[openshift-cli]: https://docs.openshift.org/latest/cli_reference/get_started_cli.html
 
 [docker-template]: https://github.com/envygeeks/docker-template
 [docker-template-wiki]: https://github.com/envygeeks/docker-template/wiki
